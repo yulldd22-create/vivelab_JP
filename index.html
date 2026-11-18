@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <meta name="description" content="肌の声に、まっすぐ。スキンケアブランドの日本語サイト・レイアウトサンプル。">
+  <meta name="theme-color" content="#ffffff">
+  <title>ViveLab｜サイトレイアウトサンプル</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="video.css">
+  <script src="menu.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="video.js" defer></script>
+</head>
+<body>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M4.5 21v-2a7.5 7.5 0 0 1 15 0v2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 48 48"><path d="M38 8C15 7 7 18 12 29s27 6 26-21Z"/><path d="M9 41 32 17M21 29v-9m0 9h9"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 48 48"><path d="M24 5C20 13 10 22 10 30a14 14 0 0 0 28 0c0-8-10-17-14-25Z"/><path d="M17 30a7 7 0 0 0 7 7"/></symbol>
+    <symbol id="i-book" viewBox="0 0 48 48"><path d="M24 13c-7-6-15-5-19-4v30c8-2 14-1 19 3 5-4 11-5 19-3V9c-4-1-12-2-19 4Zm0 0v29"/><path d="M11 17h6m-6 7h6m14-7h6m-6 7h6"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <div class="announcement">毎日の肌に、心地よい選択を。<span>ご購入前に、あなたに合うケアを見つけましょう。</span></div>
+  <header class="site-header">
+    <button class="icon-button mobile-menu" type="button" data-panel="menu" aria-label="メニューを開く"><svg><use href="#i-menu"/></svg></button>
+    <a class="wordmark" href="#" aria-label="ViveLab トップページ"><img src="assets/vivelab-logo.png" alt="ViveLab" width="500" height="200" fetchpriority="high"></a>
+    <nav class="desktop-nav" aria-label="メインメニュー"><a href="#bestsellers">ベストセラー</a><div class="nav-dropdown"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="product-menu">商品</button><ul class="dropdown-menu" id="product-menu" hidden><li><button type="button" data-catalog="all" data-catalog-title="新商品" data-selection="new">新商品</button></li><li><button type="button" data-catalog="all" data-catalog-title="セール" data-selection="sale">セール</button></li><li><button type="button" data-catalog="all" data-catalog-title="セット" data-selection="set">セット</button></li><li class="has-flyout"><button type="button" class="flyout-trigger" aria-expanded="false" aria-controls="line-menu">商品ライン別<span class="menu-chevron" aria-hidden="true">›</span></button><ul class="flyout-menu" id="line-menu" hidden><li><button type="button" data-catalog="serum" data-catalog-title="うるおいケア" data-selection="hydration">うるおいケア</button></li><li><button type="button" data-catalog="all" data-catalog-title="毎日の基本ケア" data-selection="basic">毎日の基本ケア</button></li><li><button type="button" data-catalog="serum" data-catalog-title="ナイトケア" data-selection="night">ナイトケア</button></li><li><button type="button" data-catalog="serum" data-catalog-title="モイスチャーケア" data-selection="moisture">モイスチャーケア</button></li><li><button type="button" data-catalog="cleanser" data-catalog-title="すっきりケア">すっきりケア</button></li></ul></li><li class="has-flyout"><button type="button" class="flyout-trigger" aria-expanded="false" aria-controls="category-menu">商品カテゴリー別<span class="menu-chevron" aria-hidden="true">›</span></button><ul class="flyout-menu" id="category-menu" hidden><li><button type="button" data-catalog="pad" data-catalog-title="拭き取りパッド">拭き取りパッド</button></li><li><button type="button" data-catalog="serum" data-catalog-title="化粧水／ミスト" data-selection="toner">化粧水／ミスト</button></li><li><button type="button" data-catalog="serum" data-catalog-title="美容液">美容液</button></li><li><button type="button" data-catalog="serum" data-catalog-title="乳液／クリーム" data-selection="cream">乳液／クリーム</button></li><li><button type="button" data-catalog="all" data-catalog-title="日焼け止め" data-selection="sunscreen">日焼け止め</button></li><li><button type="button" data-catalog="cleanser" data-catalog-title="クレンジング">クレンジング</button></li><li><button type="button" data-catalog="all" data-catalog-title="シートマスク" data-selection="mask">シートマスク</button></li><li><button type="button" data-catalog="all" data-catalog-title="スペシャルケア">スペシャルケア</button></li></ul></li><li><button type="button" data-catalog="all" data-catalog-title="商品一覧">商品一覧</button></li></ul></div><div class="nav-dropdown"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="more-menu">さらに表示</button><ul class="dropdown-menu" id="more-menu" hidden><li class="menu-label">イベント</li><li><a href="#campaign">イベント</a></li><li class="menu-label menu-label-separated">サポート</li><li><button type="button" data-info="faq">よくあるご質問</button></li><li><button type="button" data-info="contact">個別お問い合わせ</button></li></ul></div><div class="nav-dropdown"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="brand-menu">ブランド</button><ul class="dropdown-menu" id="brand-menu" hidden><li><a href="#brand">ブランドストーリー</a></li><li><button type="button" data-info="membership">会員特典</button></li><li class="has-flyout"><button type="button" class="flyout-trigger" aria-expanded="false" aria-controls="membership-menu">メンバーシップ特典<span class="menu-chevron" aria-hidden="true">›</span></button><ul class="flyout-menu" id="membership-menu" hidden><li><button type="button" data-info="points">ポイント利用ガイド</button></li></ul></li></ul></div><div class="nav-dropdown"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="store-menu">店舗情報</button><ul class="dropdown-menu" id="store-menu" hidden><li><button type="button" data-info="stores">オフラインストア</button></li></ul></div></nav>
+    <div class="header-actions">
+      <button class="icon-button account-button" type="button" data-info="account" aria-label="マイページ"><svg><use href="#i-user"/></svg></button>
+      <button class="icon-button" type="button" data-panel="search" aria-label="商品を検索"><svg><use href="#i-search"/></svg></button>
+    </div>
+  </header>
+  <button class="nav-scrim" type="button" tabindex="-1" aria-label="メニューを閉じる" hidden></button>
+  <main id="main">
+    <!-- メインバナー：文言は script.js の slides、画像は assets 内で変更できます。 -->
+    <section class="hero hero-green" aria-label="おすすめのスキンケア">
+      <div class="hero-inner">
+        <div class="hero-copy"><p class="eyebrow" id="hero-eyebrow">毎日のうるおいケア</p><h1 id="hero-title">肌の声に、<br>まっすぐ。</h1><p class="hero-description" id="hero-description">自分の肌を知ることから、スキンケアを。<br>毎日に寄り添う、シンプルな一滴。</p><button class="button button-dark" type="button" id="hero-cta" data-catalog="serum">美容液を見る<svg><use href="#i-arrow"/></svg></button></div>
+        <div class="hero-art" aria-hidden="true"><span class="hero-circle"></span><span class="hero-platform"></span><img class="hero-product hero-product-back" id="hero-back" src="assets/hero-serum.svg" alt="" width="600" height="720"><img class="hero-product hero-product-front" id="hero-front" src="assets/hero-green.svg" alt="" width="600" height="720"><span class="hero-art-note">素肌と向き合う、その一滴から。</span></div>
+      </div>
+      <div class="hero-controls"><div class="slide-dots" aria-label="バナーを選択"><button type="button" aria-label="1枚目のバナー" aria-current="true" data-slide="0"></button><button type="button" aria-label="2枚目のバナー" aria-current="false" data-slide="1"></button><button type="button" aria-label="3枚目のバナー" aria-current="false" data-slide="2"></button></div><span class="slide-count"><b id="slide-number">01</b> / 03</span><button class="slide-pause" type="button" aria-label="バナーの自動切り替えを停止" aria-pressed="false">Ⅱ</button></div>
+    </section>
+    <section class="category-section section-width" aria-label="商品カテゴリー">
+      <div class="category-grid">
+        <button class="category" data-catalog="all"><span><img src="assets/product-green.svg" alt="" width="600" height="720"></span>人気の商品</button>
+        <button class="category" data-catalog="all"><span class="category-pink"><img src="assets/product-lavender.svg" alt="" width="600" height="720"></span>新商品</button>
+        <button class="category" data-catalog="serum"><span><img src="assets/product-blue.svg" alt="" width="600" height="720"></span>化粧水</button>
+        <button class="category" data-catalog="serum"><span><img src="assets/product-serum.svg" alt="" width="600" height="720"></span>美容液</button>
+        <button class="category" data-catalog="all"><span><img src="assets/product-lavender.svg" alt="" width="600" height="720"></span>クリーム</button>
+        <button class="category" data-catalog="cleanser"><span><img src="assets/product-cleanser.svg" alt="" width="600" height="720"></span>クレンジング</button>
+        <button class="category" data-catalog="pad"><span><img src="assets/product-pad.svg" alt="" width="600" height="720"></span>拭き取りパッド</button>
+        <button class="category" data-catalog="all"><span><img src="assets/product-blue.svg" alt="" width="600" height="720"></span>すべての商品</button>
+      </div>
+    </section>
+    <section class="bestsellers section-width section-space" id="bestsellers" aria-labelledby="bestsellers-title">
+      <div class="section-heading"><div><p class="eyebrow">毎日に寄り添うスキンケア</p><h2 id="bestsellers-title">人気の商品</h2></div><button class="text-link" data-catalog="all">すべて見る<svg><use href="#i-arrow"/></svg></button></div>
+      <div class="product-toolbar"><div class="product-tabs" role="tablist" aria-label="人気商品のカテゴリー"><button role="tab" id="tab-serum" aria-controls="product-grid" aria-selected="true" tabindex="0" data-category="serum">美容液</button><button role="tab" id="tab-pad" aria-controls="product-grid" aria-selected="false" tabindex="-1" data-category="pad">拭き取りパッド</button><button role="tab" id="tab-cleanser" aria-controls="product-grid" aria-selected="false" tabindex="-1" data-category="cleanser">クレンジング</button></div><div class="carousel-arrows"><button class="icon-button previous-products" aria-label="前の商品へ"><svg><use href="#i-arrow"/></svg></button><button class="icon-button next-products" aria-label="次の商品へ"><svg><use href="#i-arrow"/></svg></button></div></div>
+      <div class="product-grid" id="product-grid" role="tabpanel" aria-labelledby="tab-serum" tabindex="0"></div>
+      <noscript><p>商品一覧の表示には JavaScript を有効にしてください。ページのレイアウトはそのままご覧いただけます。</p></noscript>
+      <p class="sample-note">掲載している商品・価格・画像は、レイアウト確認用のサンプルです。</p>
+    </section>
+    <section class="campaign-video" id="campaign" aria-label="ブランドムービー">
+      <video id="campaign-video" width="2400" height="1200" muted loop controls playsinline preload="metadata" poster="assets/video-hair-poster.jpg" aria-label="ブランドムービー。再生や音量は動画の操作パネルから変更できます。">
+        <source src="assets/video_hair_0308.mp4" type="video/mp4">
+        お使いのブラウザーは動画の再生に対応していません。
+      </video>
+    </section>
+    <section class="brand-values section-width section-space" id="brand" aria-label="私たちが大切にしていること"><article><svg><use href="#i-leaf"/></svg><h2>肌を想う、ものづくり。</h2><p>毎日使うものだからこそ、<br>成分や使い心地を大切に考えます。</p></article><article><svg><use href="#i-book"/></svg><h2>知ることで、選びやすく。</h2><p>成分やお手入れの方法を、<br>わかりやすい言葉でお伝えします。</p></article><article><svg><use href="#i-drop"/></svg><h2>自分らしいケアを。</h2><p>季節や肌の状態に合わせて、<br>心地よく続けられる選択を。</p></article></section>
+  </main>
+  <footer class="site-footer" id="support">
+    <nav class="footer-socials section-width" aria-label="ソーシャルメディア">
+      <a class="social-icon social-instagram" href="https://www.instagram.com/vivelab_jp" target="_blank" rel="noopener noreferrer" aria-label="インスタグラム 日本公式アカウント（新しいタブで開きます）"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="4.5" width="15" height="15" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle class="social-dot" cx="16.7" cy="7.5" r="1"/></svg></a>
+      <a class="social-icon social-x" href="https://x.com/vivelab_japan" target="_blank" rel="noopener noreferrer" aria-label="エックス 日本公式アカウント（新しいタブで開きます）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22H17l-4.9-7.4L5.6 22H2.4l7.9-9L.8 2h6.4l4.4 6.7L18.9 2Zm-1.1 18h1.7L6.3 3.9H4.5L17.8 20Z"/></svg></a>
+    </nav>
+  </footer>
+  <dialog class="drawer" id="menu-dialog" aria-labelledby="menu-title"><div class="dialog-heading"><h2 id="menu-title">メニュー</h2><button class="icon-button" data-close aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button></div><nav class="mobile-nav" aria-label="モバイルメニュー"><a href="#bestsellers">ベストセラー<span>↗</span></a><details class="mobile-nav-group"><summary>商品<span aria-hidden="true">＋</span></summary><div><button type="button" data-catalog="all" data-catalog-title="新商品" data-selection="new">新商品</button><button type="button" data-catalog="all" data-catalog-title="セール" data-selection="sale">セール</button><button type="button" data-catalog="all" data-catalog-title="セット" data-selection="set">セット</button><details class="mobile-nav-group"><summary>商品ライン別<span aria-hidden="true">＋</span></summary><div><button type="button" data-catalog="serum" data-catalog-title="うるおいケア" data-selection="hydration">うるおいケア</button><button type="button" data-catalog="all" data-catalog-title="毎日の基本ケア" data-selection="basic">毎日の基本ケア</button><button type="button" data-catalog="serum" data-catalog-title="ナイトケア" data-selection="night">ナイトケア</button><button type="button" data-catalog="serum" data-catalog-title="モイスチャーケア" data-selection="moisture">モイスチャーケア</button><button type="button" data-catalog="cleanser" data-catalog-title="すっきりケア">すっきりケア</button></div></details><details class="mobile-nav-group"><summary>商品カテゴリー別<span aria-hidden="true">＋</span></summary><div><button type="button" data-catalog="pad" data-catalog-title="拭き取りパッド">拭き取りパッド</button><button type="button" data-catalog="serum" data-catalog-title="化粧水／ミスト" data-selection="toner">化粧水／ミスト</button><button type="button" data-catalog="serum" data-catalog-title="美容液">美容液</button><button type="button" data-catalog="serum" data-catalog-title="乳液／クリーム" data-selection="cream">乳液／クリーム</button><button type="button" data-catalog="all" data-catalog-title="日焼け止め" data-selection="sunscreen">日焼け止め</button><button type="button" data-catalog="cleanser" data-catalog-title="クレンジング">クレンジング</button><button type="button" data-catalog="all" data-catalog-title="シートマスク" data-selection="mask">シートマスク</button><button type="button" data-catalog="all" data-catalog-title="スペシャルケア">スペシャルケア</button></div></details><button type="button" data-catalog="all" data-catalog-title="商品一覧">商品一覧</button></div></details><details class="mobile-nav-group"><summary>さらに表示<span aria-hidden="true">＋</span></summary><div><a href="#campaign">イベント</a><button type="button" data-info="faq">よくあるご質問</button><button type="button" data-info="contact">個別お問い合わせ</button></div></details><details class="mobile-nav-group"><summary>ブランド<span aria-hidden="true">＋</span></summary><div><a href="#brand">ブランドストーリー</a><button type="button" data-info="membership">会員特典</button><button type="button" data-info="points">ポイント利用ガイド</button></div></details><details class="mobile-nav-group"><summary>店舗情報<span aria-hidden="true">＋</span></summary><div><button type="button" data-info="stores">オフラインストア</button></div></details></nav><p class="drawer-note">肌と向き合う、毎日。</p></dialog>
+  <dialog class="search-dialog modal" id="search-dialog" aria-labelledby="search-title"><div class="dialog-heading"><h2 id="search-title">商品を検索</h2><button class="icon-button" data-close aria-label="検索を閉じる"><svg><use href="#i-close"/></svg></button></div><label for="search-input">商品名やキーワードを入力してください</label><div class="search-field"><svg><use href="#i-search"/></svg><input type="search" id="search-input" placeholder="美容液、パッド、クレンジング…" autocomplete="off"></div><p id="search-status" class="result-count" role="status"></p><div class="dialog-products" id="search-results"></div></dialog>
+  <dialog class="catalog-dialog modal" id="catalog-dialog" aria-labelledby="catalog-title"><div class="dialog-heading"><h2 id="catalog-title">すべての商品</h2><button class="icon-button" data-close aria-label="商品一覧を閉じる"><svg><use href="#i-close"/></svg></button></div><p class="muted">デザイン確認用の商品一覧です。</p><div class="catalog-grid" id="catalog-products"></div></dialog>
+  <dialog class="product-dialog modal" id="product-dialog" aria-labelledby="product-title"><div class="dialog-heading"><h2>商品詳細</h2><button class="icon-button" data-close aria-label="商品詳細を閉じる"><svg><use href="#i-close"/></svg></button></div><div id="product-detail"></div></dialog>
+  <dialog class="info-dialog modal" id="info-dialog" aria-labelledby="info-title"><div class="dialog-heading"><h2 id="info-title"></h2><button class="icon-button" data-close aria-label="閉じる"><svg><use href="#i-close"/></svg></button></div><div id="info-content"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/* インスタグラムとエックスだけのフッター。 */
+.site-footer{padding:18px 0;background:var(--footer);color:#d8d9da}
+.footer-socials{display:flex;align-items:center;justify-content:flex-start;gap:8px}
+.social-icon{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;color:inherit}
+a.social-icon:hover{color:#fff;text-decoration:none}
+a.social-icon:focus-visible{outline-color:#fff}
+.social-icon svg{width:18px;height:18px;stroke:none;fill:currentColor}
+.social-instagram svg{fill:none;stroke:currentColor;stroke-width:1.7}
+.social-instagram .social-dot{fill:currentColor;stroke:none}
+@media(max-width:699px){.site-footer{padding:12px 0}}
+@media print{.site-footer{background:#eee;color:#333}}
