@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="560" viewBox="120 70 360 560" role="img" aria-labelledby="title"><title id="title">素肌ラボの仮商品イメージ</title><defs>
+ <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#5a7c8b"/><stop offset=".13" stop-color="#8cabb4"/><stop offset=".42" stop-color="#cddde2"/><stop offset=".79" stop-color="#8cabb4"/><stop offset="1" stop-color="#5a7c8b"/></linearGradient>
+ <linearGradient id="cap" x1="0" x2="1"><stop stop-color="#d5d8cd"/><stop offset=".25" stop-color="#fffff9"/><stop offset=".68" stop-color="#efeee5"/><stop offset="1" stop-color="#c8cbc0"/></linearGradient>
+ <linearGradient id="cream" x1="0" x2="1"><stop stop-color="#deddd0"/><stop offset=".18" stop-color="#f8f5e9"/><stop offset=".5" stop-color="#fffff6"/><stop offset="1" stop-color="#dcdccf"/></linearGradient>
+ <linearGradient id="highlight" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#91ac71"/><stop offset=".5" stop-color="#426b35"/><stop offset="1" stop-color="#27492b"/></linearGradient>
+ <filter id="shadow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+ </defs><ellipse cx="302" cy="585" rx="112" ry="17" fill="#283b48" opacity=".14" filter="url(#shadow)"/>
+ <rect x="220" y="224" width="160" height="343" rx="22" fill="url(#glass)"/>
+ <path d="M233 259V536" stroke="#fff" stroke-width="9" stroke-opacity=".24" stroke-linecap="round"/>
+ <rect x="241" y="194" width="118" height="47" rx="6" fill="url(#cap)"/>
+ <rect x="280" y="166" width="40" height="33" fill="url(#cap)"/>
+ <path d="M266 139H365Q378 139 378 152V174H350V164H266Q257 164 257 154V149Q257 139 266 139Z" fill="url(#cap)"/>
+ <rect x="236" y="298" width="128" height="220" rx="2" fill="#edf3f3" opacity=".92"/><g fill="#2a4756" font-family="'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif" text-anchor="middle"><text x="300" y="336" font-size="19" font-weight="700" letter-spacing="3">素肌ラボ</text><path d="M260 358H340" fill="none" stroke="#2a4756" stroke-opacity=".3"/><text x="300" y="403" font-size="13" letter-spacing="1">モイスト化粧水</text><text x="300" y="427" font-size="10" letter-spacing="1">うるおいを、重ねる。</text><text x="300" y="481" font-size="10" letter-spacing="1">150mL</text></g></svg>

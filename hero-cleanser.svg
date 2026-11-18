@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="560" viewBox="120 70 360 560" role="img" aria-labelledby="title"><title id="title">素肌ラボの仮商品イメージ</title><defs>
+ <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#bcbca9"/><stop offset=".13" stop-color="#dad8c5"/><stop offset=".42" stop-color="#f0eedb"/><stop offset=".79" stop-color="#dad8c5"/><stop offset="1" stop-color="#bcbca9"/></linearGradient>
+ <linearGradient id="cap" x1="0" x2="1"><stop stop-color="#d5d8cd"/><stop offset=".25" stop-color="#fffff9"/><stop offset=".68" stop-color="#efeee5"/><stop offset="1" stop-color="#c8cbc0"/></linearGradient>
+ <linearGradient id="cream" x1="0" x2="1"><stop stop-color="#deddd0"/><stop offset=".18" stop-color="#f8f5e9"/><stop offset=".5" stop-color="#fffff6"/><stop offset="1" stop-color="#dcdccf"/></linearGradient>
+ <linearGradient id="highlight" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#91ac71"/><stop offset=".5" stop-color="#426b35"/><stop offset="1" stop-color="#27492b"/></linearGradient>
+ <filter id="shadow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+ </defs><ellipse cx="302" cy="580" rx="112" ry="18" fill="#4b4738" opacity=".12" filter="url(#shadow)"/>
+ <path d="M210 157H390L365 504Q363 522 347 527H253Q237 523 235 504Z" fill="url(#cream)"/>
+ <path d="M222 164L245 485" fill="none" stroke="#fff" stroke-width="7" stroke-opacity=".44"/>
+ <path d="M211 157H389V173H211Z" fill="#e2e0d1"/>
+ <path d="M218 164H382" stroke="#fff" stroke-opacity=".6"/>
+ <rect x="237" y="519" width="126" height="43" rx="4" fill="url(#cap)"/>
+ <path d="M244 527H356" stroke="#bebfab" opacity=".4"/><g fill="#46483b" font-family="'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif" text-anchor="middle"><text x="300" y="294" font-size="19" font-weight="700" letter-spacing="3">素肌ラボ</text><path d="M260 316H340" fill="none" stroke="#46483b" stroke-opacity=".3"/><text x="300" y="361" font-size="13" letter-spacing="1">クリアクレンザー</text><text x="300" y="385" font-size="10" letter-spacing="1">毎日を、すっきり。</text><text x="300" y="439" font-size="10" letter-spacing="1">120mL</text></g></svg>

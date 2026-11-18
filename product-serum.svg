@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720" role="img" aria-labelledby="title"><title id="title">素肌ラボの仮商品イメージ</title><defs>
+ <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#8b4a20"/><stop offset=".13" stop-color="#bd7934"/><stop offset=".42" stop-color="#e9b96a"/><stop offset=".79" stop-color="#bd7934"/><stop offset="1" stop-color="#8b4a20"/></linearGradient>
+ <linearGradient id="cap" x1="0" x2="1"><stop stop-color="#d5d8cd"/><stop offset=".25" stop-color="#fffff9"/><stop offset=".68" stop-color="#efeee5"/><stop offset="1" stop-color="#c8cbc0"/></linearGradient>
+ <linearGradient id="cream" x1="0" x2="1"><stop stop-color="#deddd0"/><stop offset=".18" stop-color="#f8f5e9"/><stop offset=".5" stop-color="#fffff6"/><stop offset="1" stop-color="#dcdccf"/></linearGradient>
+ <linearGradient id="highlight" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#91ac71"/><stop offset=".5" stop-color="#426b35"/><stop offset="1" stop-color="#27492b"/></linearGradient>
+ <filter id="shadow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+ </defs><rect width="600" height="720" fill="#f7f8f5"/><ellipse cx="306" cy="574" rx="114" ry="19" fill="#2c392b" opacity=".13" filter="url(#shadow)"/>
+ <rect x="223" y="246" width="154" height="311" rx="31" fill="url(#glass)"/>
+ <path d="M236 284V510Q236 535 250 539" fill="none" stroke="#fff" stroke-opacity=".26" stroke-width="6" stroke-linecap="round"/>
+ <path d="M365 279V520" stroke="#152b21" stroke-opacity=".08" stroke-width="7" stroke-linecap="round"/>
+ <path d="M250 247V229Q250 221 260 221H340Q350 221 350 231V247" fill="url(#glass)"/>
+ <rect x="248" y="194" width="104" height="59" rx="7" fill="url(#cap)"/>
+ <path d="M271 194V153Q271 126 300 126Q329 126 329 153V194" fill="url(#cap)"/>
+ <path d="M256 198V248M263 198V248M337 198V248M345 198V248" stroke="#858b7d" opacity=".13"/>
+ <rect x="241" y="313" width="118" height="206" rx="2" fill="#f8f9eb" opacity=".94"/><g fill="#20352b" font-family="'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif" text-anchor="middle"><text x="300" y="345" font-size="19" font-weight="700" letter-spacing="3">素肌ラボ</text><path d="M260 367H340" fill="none" stroke="#20352b" stroke-opacity=".3"/><text x="300" y="412" font-size="13" letter-spacing="1">グロウ美容液</text><text x="300" y="436" font-size="10" letter-spacing="1">うるおいに満ちた肌へ。</text><text x="300" y="490" font-size="10" letter-spacing="1">30mL</text></g></svg>
